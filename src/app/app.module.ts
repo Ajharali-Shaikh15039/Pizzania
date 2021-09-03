@@ -6,17 +6,31 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { PizzasComponent } from './pizzas/pizzas.component';
+import { AuthModule } from './auth/auth.module';
+import { RouterModule } from '@angular/router';
+import { SliderComponent } from './slider/slider.component';
+import { SlotbookingComponent } from './slotbooking/slotbooking.component';
+import { HttpClientModule } from '@angular/common/http';
+// import { FormGroup } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    PizzasComponent
+    PizzasComponent,
+    SliderComponent,
+    SlotbookingComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AuthModule,
+    RouterModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

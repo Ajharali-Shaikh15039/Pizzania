@@ -2,15 +2,15 @@
 <div class="container">
     <div class="row">
         <ng-container *ngFor="let pizza of pizzas">
-            <div class="card col-md-3 p-3" style="width: 18rem;" >
+            <div class="card col-md-3 m-3 border-light" style="width: 18rem;" >
                 <img src="../../assets/pizzalogo.png" class="card-img-top" alt="..." width="50px" height="150px">
                 <div class="card-body">
-                  <h5 class="card-title">{{pizza.name}}</h5>
-                  <p class="card-text">{{pizza.toppings}}</p>
+                  <h5 class="card-title">{{pizza.pizzaName}}</h5>
+                  <p class="card-text">{{pizza.description}}</p>
+                  <p>{{pizza.price}}&nbsp;Rs.</p>
                   <a href="#" class="btn btn-light">Add to Cart</a>
                 </div>
               </div>
         </ng-container>
     </div>
 </div>
-

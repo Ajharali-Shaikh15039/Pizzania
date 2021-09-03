@@ -1,5 +1,6 @@
 export interface Pizza {
     id: number;
-    name: string;
-    toppings: string;
+    pizzaName: string;
+    description: string;
+    price:number;
   }
