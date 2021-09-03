@@ -1,7 +1,8 @@
-<div class="container-fuild bg-primary my-3 p-3 text-center">
-    <h2 class="display-3 text-white">Slot Booking</h2>
+<div class="container-fuild my-3 p-3 text-center">
+    <!-- <h5 class="display-3">Slot Booking</h5> -->
+    <p><span class="slot" style="border-bottom:2px solid #e66a6a;">Slot Booking</span></p>
   </div>
-  <div class="container p-5 m-5" style="border: 2px solid black; background-color: thistle;">
+  <div class="container p-5" style="border: 0px solid black;">
     <!-- <form [formGroup]="customerForm" (ngSubmit)="onSubmit()"> -->
         <form>
       <div class="form-group row">
@@ -57,7 +58,8 @@
       </div><br>
       
       <div class="text-center">
-        <input type="submit" class="btn btn-warning">
+        <!-- <input type="submit" routerLink="/payment" (click)="orderplaced()" class="btn btn-warning"> -->
+        <button class="btn btn-light" type="submit" routerLink="/payment">Book</button>
       </div>
     </form>
   </div>

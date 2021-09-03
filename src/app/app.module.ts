@@ -13,6 +13,7 @@ import { SlotbookingComponent } from './slotbooking/slotbooking.component';
 import { HttpClientModule } from '@angular/common/http';
 // import { FormGroup } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
+import { PaymentComponent } from './payment/payment.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     PizzasComponent,
     SliderComponent,
     SlotbookingComponent,
+    PaymentComponent,
   ],
   imports: [
     BrowserModule,
