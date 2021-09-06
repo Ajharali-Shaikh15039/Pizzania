@@ -8,7 +8,7 @@ mongoose.connect(DB).then(()=>{
 }).catch((err)=>console.log(`no connection`));
 
 app.use(express.json());
-const Slot = require('./model/userSchema');
+const Slot = require('./model/slotSchema');
 
 app.use(require('./router/auth')); 
 
