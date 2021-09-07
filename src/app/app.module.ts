@@ -12,7 +12,7 @@ import { SliderComponent } from './slider/slider.component';
 import { SlotbookingComponent } from './slotbooking/slotbooking.component';
 import { HttpClientModule } from '@angular/common/http';
 // import { FormGroup } from '@angular/forms';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PaymentComponent } from './payment/payment.component';
 
 
@@ -32,7 +32,8 @@ import { PaymentComponent } from './payment/payment.component';
     AuthModule,
     RouterModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
